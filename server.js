@@ -2,7 +2,7 @@ var express = require('express'),
 app = express(),
 port = process.env.PORT || 3000,
 mongoose = require('mongoose'),
-Task = require('./api/models/nodeposh-api-model'), //created model loading here
+Task = require('./src/api/models/nodeposh-api-model'), //created model loading here
 bodyParser = require('body-parser');
   
 // mongoose instance connection url connection
@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 
-var routes = require('./api/routes/nodeposh-api-routes'); //importing route
+var routes = require('./src/api/routes/nodeposh-api-routes'); //importing route
 routes(app); //register the route
 
 

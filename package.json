@@ -1,0 +1,31 @@
+{
+  "name": "nodeposh-api",
+  "version": "1.0.0",
+  "description": "nodejs api with a touch of PowerShell",
+  "main": "server.js",
+  "dependencies": {
+    "node-powershell": "^3.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/noobishsre/nodeposh-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "restful",
+    "api",
+    "powershell",
+    "pwsh"
+  ],
+  "author": "Derrick.E",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noobishsre/nodeposh-api/issues"
+  },
+  "homepage": "https://github.com/noobishsre/nodeposh-api#readme"
+}
